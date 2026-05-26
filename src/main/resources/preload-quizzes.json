@@ -1,0 +1,24 @@
+[
+  {
+    "title": "ChatGPT Quiz",
+    "description": "Quiz about ChatGPT and OpenAI",
+    "questions": [
+      { "text": "Which company created ChatGPT?", "options": ["Google", "Anthropic", "OpenAI", "Microsoft"], "correct": 2 },
+      { "text": "Which model powers ChatGPT?", "options": ["Gemini", "GPT", "Claude", "Llama"], "correct": 1 },
+      { "text": "What does GPT stand for?", "options": ["General Processing Tool", "Generative Pre-trained Transformer", "Graph Processing Technology", "Generated Predictive Text"], "correct": 1 },
+      { "text": "Which company partnered heavily with OpenAI?", "options": ["Amazon", "Meta", "Microsoft", "Apple"], "correct": 2 },
+      { "text": "ChatGPT is mainly used for?", "options": ["Video editing", "AI conversations", "Operating systems", "Blockchain mining"], "correct": 1 }
+    ]
+  },
+  {
+    "title": "GitHub Copilot Quiz",
+    "description": "Quiz about GitHub Copilot",
+    "questions": [
+      { "text": "GitHub Copilot is mainly used for?", "options": ["Music generation", "Code assistance", "Video rendering", "Cloud hosting"], "correct": 1 },
+      { "text": "Which company owns GitHub?", "options": ["Google", "Microsoft", "Amazon", "Meta"], "correct": 1 },
+      { "text": "Copilot integrates directly with?", "options": ["VS Code", "Photoshop", "Excel", "Spotify"], "correct": 0 },
+      { "text": "Copilot uses which AI technology?", "options": ["GPT models", "Blockchain", "Virtual Machines", "Docker"], "correct": 0 },
+      { "text": "Copilot helps developers by?", "options": ["Writing code suggestions", "Repairing hardware", "Managing databases physically", "Building CPUs"], "correct": 0 }
+    ]
+  }
+]

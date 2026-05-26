@@ -11,6 +11,7 @@ import com.certified.fullstack.quiz.repository.QuizRepository;
 import com.certified.fullstack.quiz.service.QuizService;
 import lombok.RequiredArgsConstructor;
 import org.springframework.stereotype.Service;
+import org.springframework.transaction.annotation.Transactional;
 
 import java.util.List;
 
@@ -60,6 +61,7 @@ public class QuizServiceImpl implements QuizService {
     /*
             Create a new quiz --- OK ---
      */
+    @Transactional
     @Override
     public QuizDetailsResponse createQuiz(QuizRequest request) {
 
