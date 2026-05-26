@@ -1,10 +1,10 @@
 package com.certified.fullstack.quiz.service.impl;
 
 import com.certified.fullstack.exception.NotFoundException;
-import com.certified.fullstack.quiz.dto.QuestionResponse;
-import com.certified.fullstack.quiz.dto.QuizDetailsResponse;
-import com.certified.fullstack.quiz.dto.QuizRequest;
-import com.certified.fullstack.quiz.dto.QuizSummaryResponse;
+import com.certified.fullstack.quiz.dto.response.QuestionResponse;
+import com.certified.fullstack.quiz.dto.response.QuizDetailsResponse;
+import com.certified.fullstack.quiz.dto.request.QuizRequest;
+import com.certified.fullstack.quiz.dto.response.QuizSummaryResponse;
 import com.certified.fullstack.quiz.entity.Question;
 import com.certified.fullstack.quiz.entity.Quiz;
 import com.certified.fullstack.quiz.repository.QuizRepository;

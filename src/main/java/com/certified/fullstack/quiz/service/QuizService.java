@@ -1,8 +1,8 @@
 package com.certified.fullstack.quiz.service;
 
-import com.certified.fullstack.quiz.dto.QuizDetailsResponse;
-import com.certified.fullstack.quiz.dto.QuizRequest;
-import com.certified.fullstack.quiz.dto.QuizSummaryResponse;
+import com.certified.fullstack.quiz.dto.response.QuizDetailsResponse;
+import com.certified.fullstack.quiz.dto.request.QuizRequest;
+import com.certified.fullstack.quiz.dto.response.QuizSummaryResponse;
 import org.springframework.stereotype.Service;
 
 import java.util.List;

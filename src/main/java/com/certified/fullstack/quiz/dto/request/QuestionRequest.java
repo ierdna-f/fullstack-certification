@@ -1,4 +1,4 @@
-package com.certified.fullstack.quiz.dto;
+package com.certified.fullstack.quiz.dto.request;
 
 import lombok.AllArgsConstructor;
 import lombok.Data;
@@ -9,9 +9,9 @@ import java.util.List;
 @Data
 @NoArgsConstructor
 @AllArgsConstructor
-public class QuestionResponse {
+public class QuestionRequest {
 
-    private Long id;
     private String text;
     private List<String> options;
+    private Integer correct;
 }

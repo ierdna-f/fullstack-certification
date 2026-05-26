@@ -1,4 +1,4 @@
-package com.certified.fullstack.quiz.dto;
+package com.certified.fullstack.quiz.dto.response;
 
 import lombok.AllArgsConstructor;
 import lombok.Data;
